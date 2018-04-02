@@ -1205,8 +1205,8 @@
         hoverDate: function(e) {
 
             //ignore mouse movements while an above-calendar text input has focus
-            if (this.container.find('input[name=daterangepicker_start]').is(":focus") || this.container.find('input[name=daterangepicker_end]').is(":focus"))
-                return;
+//             if (this.container.find('input[name=daterangepicker_start]').is(":focus") || this.container.find('input[name=daterangepicker_end]').is(":focus"))
+//                 return;
 
             //ignore dates that can't be selected
             if (!$(e.target).hasClass('available')) return;
