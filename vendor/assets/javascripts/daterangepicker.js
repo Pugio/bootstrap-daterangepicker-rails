@@ -1283,7 +1283,7 @@
                     var second = this.timePickerSeconds ? parseInt(this.container.find('.left .secondselect').val(), 10) : 0;
                     date = date.clone().hour(hour).minute(minute).second(second);
                 }
-                this.endDate = null;
+                // this.endDate = null;
                 this.setStartDate(date.clone());
             } else if (!this.endDate && date.isBefore(this.startDate)) {
                 //special case: clicking the same date for start/end,
